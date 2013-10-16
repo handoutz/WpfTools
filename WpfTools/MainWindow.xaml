@@ -1,0 +1,19 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:WpfTools.Controls"
+        x:Class="WpfTools.MainWindow"
+        Title="MainWindow"
+        Height="437"
+        Width="682">
+    <Grid>
+        <controls:TextBoxExtended HorizontalAlignment="Left"
+                                  Margin="152,66,0,0"
+                                  VerticalAlignment="Top"
+                                  TextHint="Hinted" />
+        <controls:NumericUpDown HorizontalAlignment="Left"
+                                Margin="229,161,0,0"
+                                VerticalAlignment="Top"
+                                TextHint="asdf" />
+
+    </Grid>
+</Window>
